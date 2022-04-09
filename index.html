@@ -156,13 +156,18 @@
             </div>
         </div>
         <!-- search -->
-        <form class="tracking" action="">
-            <div class="super">
-                <h1>Search những gì bạn thích </h1>
-                <input class="codepen" name="search" id="search" onchange="myfunticon()" type="text" placeholder="Tìm kiếm">
+    <div class="wrapper">
+        <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <form>
+                <input type="text" id="search" placeholder="Type to search.." name="Search" onchange="Search()">
+            </form>
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
             </div>
-        </form>
-
+            <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+    </div>
         <!-- Courses area start -->
         <div class="courses-area section-padding40 fix">
             <div class="container">
@@ -889,6 +894,10 @@
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
         <script src="./Doc/js/script.js"></script>
+                <!-- js search -->
+        <script src="js/suggestions.js"></script>
+        <script src="js/script.js"></script>
+        <script src="/search/js/linkscript.js"></script>
 </body>
 
 </html>
