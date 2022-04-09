@@ -7318,7 +7318,7 @@ del {
 
 .wrapper {
     max-width: 450px;
-    margin: 150px auto;
+    margin: -10px auto;
 }
 
 .wrapper .search-input {
