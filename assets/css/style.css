@@ -4215,7 +4215,9 @@ hr {
 }
 
 .single-features .features-icon img {
-    display: block
+    display: block;
+    margin-top: 20px;
+    margin-right: -8px;
 }
 
 .single-features .features-caption {
